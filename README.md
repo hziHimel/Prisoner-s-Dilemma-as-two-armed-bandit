@@ -22,4 +22,4 @@ Output:
   
   When opponent always denies, average reward reaches up to -1 after all iterations. ![See output](./Opponent_denies.png)
 
-  ![Here](./opponent_random.png) is for opponent with random strategy
+  ![Here](./opponent_random.png)This is for opponent with random strategy

@@ -12,4 +12,14 @@ In this program, let,
   (deny, confess)   : ('D', 'C') == (0, -5)
   (deny, deny)      : ('D', 'D') == (-1, -1)
   
-  Where, first element is action of our RL agent and second element is action of opponent
+  Where, first element is action of our RL agent and second element is action of opponent.
+
+Output:
+  For each experiments, RL agent learns to deny in short time, which is the dominant action.
+  This experiment has been done for 3 types of opponents - always confesses, always denies, behaves randomly.
+
+  When opponent always confesses, average reward reaches up to 0 after all iterations. ![See output](./Opponent_confess.png)
+  
+  When opponent always denies, average reward reaches up to -1 after all iterations. ![See output](./Opponent_denies.png)
+
+  ![Here](./Opponent_random.png) is for opponent with random strategy
